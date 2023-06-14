@@ -1,4 +1,5 @@
-from utils import *
+# * - потому что нам нужно всё
+from utils import * 
 from configs import *
 
 # создаём папки и файлы, нужные для работы
