@@ -3,7 +3,7 @@ from utils import *
 from configs import *
 
 # создаём папки и файлы, нужные для работы
-install()
+setup()
 
 print('url: ' + root + '\n\n')
 
