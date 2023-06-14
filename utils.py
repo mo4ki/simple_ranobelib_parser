@@ -67,7 +67,7 @@ def write_text(text):
     file.close()
     
 # создаём файлы и папки нужные для работы
-def install():
+def setup():
     
     # если не существует root файла
     if not os.path.exists('charapters/root'): 
