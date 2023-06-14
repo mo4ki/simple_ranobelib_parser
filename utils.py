@@ -34,7 +34,7 @@ class text_parser(HTMLParser):
             
         if self.flag: # парсим текст
             
-            data = data.replace('\n', '') # чистим текст
+            data = data.replace('\n', ' ') # чистим текст
             write_text(data)
             
 
